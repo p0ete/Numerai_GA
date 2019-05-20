@@ -1,0 +1,5 @@
+You need to download the files:
+- numerai_training_data.csv
+- numerai_tournament_data.csv
+
+On the Numer.ai website and put the into this folder
