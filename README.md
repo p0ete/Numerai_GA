@@ -8,19 +8,12 @@ I implemented a genetic algorithm to optimize the neural network architecture an
 
 ## How-to
 
-You need first to download "numerai_training_data.csv" and "numerai_tournament_data.csv" on the Numer.ai website.
-
-(Optional) Augment the dataset:
-> python augment_dataset.py 
+You need first to download "numerai_training_data.csv" and "numerai_tournament_data.csv" on the Numer.ai website and put both files into the "data" folder.
 
 Run the Genetic algorithm:
-> python augment_dataset.py 
-
-Clean the results folders:
-> python augment_dataset.py 
+> python GA_optimization.py 
 
 ## TODO List
 
-- Need to otimize "augment_dataset.py", beacause it takes really too much time !!!
 - Add comments in the code.
-- Include different NN optimizers in the parameters of the genetic algorithm.
+- Create a script to do the submission files.
